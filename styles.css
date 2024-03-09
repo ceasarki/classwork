@@ -54,3 +54,8 @@ footer {
 h1{
   color:red;
 }
+aside{
+  flex: 1;
+  border-left: 1px solid bisque;
+  background-color: brown;
+}
