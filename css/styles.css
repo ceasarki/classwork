@@ -28,7 +28,7 @@ fieldset{
 header, main, aside, footer{
     padding: 30px;
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(5, 92, 173);
     color: white;
 }
 .container{
@@ -41,5 +41,5 @@ main{
 aside{
     flex:1;
     border-left:1px solid bisque;
-    background-color: brown;
+    background-color: rgb(50, 3, 112);
 }
