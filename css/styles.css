@@ -43,3 +43,50 @@ aside{
     border-left:1px solid bisque;
     background-color: rgb(50, 3, 112);
 }
+/*flexbox example */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+.flex-item {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+
+}
+/*css grid example */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, lft);
+    grid-gap: 10px;
+
+}.grid-item{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
